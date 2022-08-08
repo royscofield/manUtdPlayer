@@ -1,0 +1,39 @@
+.goalkeeper
+{
+    text-align: center;
+}
+
+.goalkeeper > div
+{
+    display: inline-block;
+}
+
+.defenders
+{
+    text-align: center;
+}
+
+.defenders > div
+{
+    display: inline-block;
+}
+
+.midfielders
+{
+    text-align: center;
+}
+
+.midfielders > div
+{
+    display: inline-block;
+}
+
+.forwards
+{
+    text-align: center;
+}
+
+.forwards > div
+{
+    display: inline-block;
+}
