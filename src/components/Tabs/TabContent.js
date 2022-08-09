@@ -9,6 +9,10 @@ import TabList from '@mui/lab/TabList';
 import TabPanel from '@mui/lab/TabPanel';
 
 import Men from "../TabInfo/Men/Men";
+import Women from "../TabInfo/Women/Women";
+import Under23s from "../TabInfo/Under-23s/Under23s";
+import Under18s from "../TabInfo/Under-18s/Under18s";
+import Legend from "../TabInfo/Legend/Legend";
 
 const cx = classNames.bind(styles)
 
@@ -39,12 +43,12 @@ function TabContent({ props })
                     </TabList>
                 </Box>
                 <TabPanel value="1"><Men /></TabPanel>
-                <TabPanel value="2">women</TabPanel>
-                <TabPanel value="3">under-23s</TabPanel>
-                <TabPanel value="4">under-18s</TabPanel>
-                <TabPanel value="5">legend</TabPanel>
-                  </TabContext>
-                </Box>
+                <TabPanel value="2"><Women /></TabPanel>
+                <TabPanel value="3"><Under23s /></TabPanel>
+                <TabPanel value="4"><Under18s /></TabPanel>
+                <TabPanel value="5"><Legend /></TabPanel>
+            </TabContext>
+            </Box>
         </div>       
     )
 }

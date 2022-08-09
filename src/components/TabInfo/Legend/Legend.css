@@ -1,0 +1,19 @@
+.appearances
+{
+    text-align: center;
+}
+
+.appearances > div
+{
+    display: inline-block;
+}
+
+.scorers
+{
+    text-align: center;
+}
+
+.scorers > div
+{
+    display: inline-block;
+}

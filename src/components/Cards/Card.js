@@ -15,7 +15,7 @@ function CardInfo({ image, playerName, playerNumber }) {
         />
         <CardContent CardContent>
             <Typography gutterBottom variant="h5" component="div" >
-                {playerNumber}
+                {playerNumber || <br/>}
             </Typography>
         
             <Typography variant="body2" color="text.secondary">
